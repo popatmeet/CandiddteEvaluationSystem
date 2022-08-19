@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252121"
+    android:backgroundTint="#272525"
+    tools:context=".splash">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:autoSizeMaxTextSize="100dp"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeStepGranularity="2dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/oxygen_mono"
+        android:gravity="center"
+        android:text="Candidate Evaluation System"
+        android:textAllCaps="true"
+        android:textColor="#fffbfb"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:targetApi="M" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#00D3C9C9" />
+
+
+</RelativeLayout>

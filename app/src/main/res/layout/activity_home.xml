@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252121"
+    android:backgroundTint="#272525"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:autoSizeMaxTextSize="100dp"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeStepGranularity="2dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/belleza"
+        android:gravity="center"
+        android:text="Candidate Evaluation System"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:targetApi="M" />
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_above="@id/login"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttonback"
+        android:fontFamily="serif"
+        android:text="Apply For Job"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttonback"
+        android:fontFamily="serif"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252121"
+    android:backgroundTint="#272525"
+    tools:context=".AdminSide">
+
+    <Button
+        android:id="@+id/buttoncandidate"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/buttonback"
+        android:fontFamily="serif"
+        android:text="Candidate" />
+
+    <Button
+        android:id="@+id/buttonrequirement"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/buttoncandidate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttonback"
+        android:fontFamily="serif"
+        android:text="View Result" />
+</RelativeLayout>
